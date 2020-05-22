@@ -1,3 +1,7 @@
+function data() {
+    return "jkaljidjklsjjkshjdhsjaoijxkljalks";
+}
+
 function test() {
-    alert("Welcome!")
+    document.getElementById("data").value = data();
 }
